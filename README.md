@@ -1,3 +1,3 @@
-# PSKK-JWD-PMB
+# PSKK-JWD-PSB
 
-jkdskl
+Pembuatan sistem website sederhana tentang penerimaan siswa baru (PSB).
