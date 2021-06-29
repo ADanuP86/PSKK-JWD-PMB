@@ -22,10 +22,10 @@ class C_admin extends CI_Controller {
 		$where = array('id' => $id);
 		$data['siswa'] = $this->M_Siswa->edit_data($where, 'tabel-data_siswa')->result();
 
-		$this->load->view('templates/header');
-		$this->load->view('templates/sidebar');
+		$this->load->view('templates-adm/header');
+		$this->load->view('templates-adm/sidebar');
 		$this->load->view('edit_adm', $data);
-		$this->load->view('templates/footer');
+		$this->load->view('templates-adm/footer');
 	}
 
 	public function update() {
